@@ -12,7 +12,9 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * Computer enemy
+ * AI opponent implementation for the Battleship game.
+ * Observes game events and makes strategic strikes against the human player.
+ * Implements the Observer pattern to react to game state changes.
  */
 public class Terminator implements Observer {
     /**
@@ -30,6 +32,11 @@ public class Terminator implements Observer {
     private int twoDeckShipNumber = Ship.Type.getShipsNumber(Ship.Type.TWO_DECK);
     private int oneDeckShipNumber = Ship.Type.getShipsNumber(Ship.Type.ONE_DECK);
 
+     /**
+     * Constructs a Terminator AI opponent.
+     * @param game The game instance to observe
+     * @param player The AI player instance
+     */
     public Terminator(Game game, Player player) {
         this.game = game;
         this.game.addObserver(this);
