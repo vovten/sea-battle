@@ -9,7 +9,8 @@ import vovten.util.Observer;
 import java.util.*;
 
 /**
- * Game manager
+ * Represents a game session of Battleship.
+ * Manages game flow, strike processing, and player interactions.
  */
 public class Game implements Observable {
     public static final int FIELD_SIZE = 10;
