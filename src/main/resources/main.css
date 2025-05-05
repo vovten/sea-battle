@@ -1,0 +1,44 @@
+#mainBorderPane {
+    -fx-background-color: #f1fffd;
+}
+/*.menu-bar {*/
+    /*-fx-background-color: #f1fffd;*/
+    /*-fx-border-color: black;*/
+/*}*/
+
+#btnStartGame {
+    -fx-font-weight: bold;
+}
+
+.label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-font-weight: bold;
+}
+
+#labelTopInfo {
+    -fx-font-size: 15px;
+}
+
+#labelSecondBottomInfo {
+    -fx-padding: 5, 0, 5, 0;
+    -fx-font-size: 14px;
+    -fx-font-weight: normal;
+}
+
+#labelFirstBottomInfo {
+    -fx-padding: 5, 0, 5, 0;
+    -fx-font-size: 14px;
+    -fx-font-weight: normal;
+}
+
+#anchorPaneDisableFirst {
+    -fx-background-color: gray
+}
+
+#anchorPaneDisableSecond {
+    -fx-background-color: gray
+}

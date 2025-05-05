@@ -1,0 +1,1 @@
+java --module-path /d/javafx-sdk-24.0.1/lib --add-modules javafx.controls,javafx.fxml -jar ./target/SeaBattle-1.0-SNAPSHOT-jar-with-dependencies.jar
