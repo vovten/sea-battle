@@ -6,7 +6,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * The ship
+ * Represents a ship in the Sea Battle game.
+ * A ship has a size(decks), position, direction.
  */
 public class Ship {
     private final Type type;
